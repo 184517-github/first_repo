@@ -1,0 +1,79 @@
+****List:****
+1.List is a class.               class Test {  varibles ,methods ,m1(),m2()
+                                      };
+                                    m1()
+2.List is a iterable squence.
+3.List is a mutuable.----change   3,7,5,6,12
+4. List is a growable.                   0  1 2 3    4
+5.list can store hetrogenous data. l1 = [2,4.5,"abc"True,2] 
+6.list can be indexed.
+7.list can be allowed duplicate elements.
+
+*****How to create list object?  ******
+
+l1=[10,20,30]  # square brakets are used to create list.
+l2=[]          # empty list object.
+l3=[23,23.3,'abc'] # hetrogeous elements.
+
+***How to access list elements***
+
+       0  1  2  3 4   5 ----> indexing       
+l1 = [50,20,80,10,60,40]
+
+    print(l1)   # [50,20,80,10,60,40]
+print(l1[0])  #  50
+print(l1[1])  # 20
+ 
+
+****concept of Negative indexing****
+
+    -6 -5 -4 -3 -2 -1
+l1=[50,20,80,10,60,40]
+     0  1  2  3  4  5 
+
+print(l1[-1])   #40
+print(l1[-2])   #60
+
+Accessing list using for loop:
+
+l1=[50,20,80,10,60,40]
+
+for x in l1:
+     print(x, end=' ')
+
+****Using while***
+i=0
+while i<=5:
+   print(l1)
+    i+=1
+
+***To delete element**
+
+     0  1  2  3  4  5
+l1=[50,20,80,10,60,40]
+    -6 -5 -4 -3 -2 -1
+                0  1  2  3 4 
+del l1[2]   # [50,20,10,60,40]
+               -5 -4 -3 -2 -1 
+
+
+***How to edit list***
+
+l1=[50,20,80,10,60,40]
+
+l1[45] 
+
+
+****Two Methods***
+1.append(value)  # add elements at last index.
+2.insert(index,value)  #  add elements at specified index.
+   These are attribute of class.
+
+class is a varibles and methods .
+These varibles and methods are called attributes. 
+ 
+   listobject.append(value)        class List      l1.append()       def greet  greet()
+   listobject.insert(index,value)
+
+    e.g. l1.insert(25,60)
+   if index> last index then value will be stored at last index+1   only(append) 
